@@ -10,3 +10,9 @@ ADRiver-4D performs interpretable encoding of dynamic (4D) point cloud sequences
 
 Together, A/D/R expose **which dynamical pathway dominates** (transport vs smoothing vs local nonlinearity) instead of hiding everything in one black-box residual.
 
+
+| scene rgb | Advection (A) | Diffusion (D) | Reaction (R) |
+| :-------: | :-------------: | :-------------: | :------------: |
+| ![](assets/rgb_ref_0022.png) | ![](assets/adr_A_adv_feat_norm_0022.png) | ![](assets/adr_D_diff_term_norm_0022.png) | ![](assets/adr_R_reaction_norm_0022.png) |
+| ![](assets/rgb_ref_0023.png) | ![](assets/adr_A_adv_feat_norm_0023.png) | ![](assets/adr_D_diff_term_norm_0023.png) | ![](assets/adr_R_reaction_norm_0023.png) |
+
